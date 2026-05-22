@@ -74,8 +74,8 @@ class QuoteModalComponent extends HTMLElement {
                             <select class="form-control" id="learnerCount" name="entry.695639740" required>
                                 <option value="">Choose</option>
                                 <option value="Under 50">Under 50</option>
-                                <option value="50–500">50–500</option>
-                                <option value="500–5,000">500–5,000</option>
+                                <option value="50-500">50-500</option>
+                                <option value="500-5,000">500-5,000</option>
                                 <option value="5,000+">5,000+</option>
                                 <option value="Not Sure">Not Sure</option>
                             </select>
@@ -92,8 +92,8 @@ class QuoteModalComponent extends HTMLElement {
                             <select class="form-control" id="budget" name="entry.1180439776" required>
                                 <option value="">Choose</option>
                                 <option value="Under $500">Under $500</option>
-                                <option value="$500–$1,500">$500–$1,500</option>
-                                <option value="$1,500–$5,000">$1,500–$5,000</option>
+                                <option value="$500-$1,500">$500-$1,500</option>
+                                <option value="$1,500-$5,000">$1,500-$5,000</option>
                                 <option value="$5,000+">$5,000+</option>
                                 <option value="Not Sure">Not Sure</option>
                             </select>
@@ -113,9 +113,9 @@ class QuoteModalComponent extends HTMLElement {
                             <label for="bestTime">Best Time to Reach You *</label>
                             <select class="form-control" id="bestTime" name="entry.2109712751" required>
                                 <option value="">Choose</option>
-                                <option value="Morning (8am–12pm)">Morning (8am–12pm)</option>
-                                <option value="Afternoon (12pm–5pm)">Afternoon (12pm–5pm)</option>
-                                <option value="Evening (5pm–8pm)">Evening (5pm–8pm)</option>
+                                <option value="Morning (8am-12pm)">Morning (8am-12pm)</option>
+                                <option value="Afternoon (12pm-5pm)">Afternoon (12pm-5pm)</option>
+                                <option value="Evening (5pm-8pm)">Evening (5pm-8pm)</option>
                             </select>
                         </div>
 
