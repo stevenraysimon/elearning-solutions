@@ -7,7 +7,7 @@ class QuoteButtonComponent extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <button class="book-now-button" id="quoteBtn"
-                onclick="document.dispatchEvent(new CustomEvent('openQuoteModal')); playSound('pop');"
+                onclick="document.dispatchEvent(new CustomEvent('openQuoteModal')); gtag('event', 'quote_button_click'); playSound('pop');"
                 aria-label="Get a Quote">
                 Get a Quote
             </button>

@@ -21,7 +21,7 @@ class HeaderComponent extends HTMLElement {
                 </a>
                 <div class="inside-wrapper">
                     <p>Custom eLearning courses, tools, and games — built for the way people actually learn.<br>
-                    <button onclick="document.dispatchEvent(new CustomEvent('openQuoteModal')); playSound('pop');" class="hero-button">Get a Quote</button></p>
+                    <button onclick="document.dispatchEvent(new CustomEvent('openQuoteModal')); gtag('event', 'quote_button_click'); playSound('pop');" class="hero-button">Get a Quote</button></p>
                 </div>
                 <icon-nav-component></icon-nav-component>
             </header>

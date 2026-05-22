@@ -20,7 +20,7 @@ class MenuComponent extends HTMLElement {
                     <li><a href="#how-it-works" onclick="menuComponent.closeMenu()">How It Works</a></li>
                     <li><a href="#about" onclick="menuComponent.closeMenu()">About</a></li>
                     <li><a href="#faq" onclick="menuComponent.closeMenu()">FAQ</a></li>
-                    <li><a href="#" onclick="document.dispatchEvent(new CustomEvent('openQuoteModal')); menuComponent.closeMenu(); return false;">Get a Quote</a></li>
+                    <li><a href="#" onclick="document.dispatchEvent(new CustomEvent('openQuoteModal')); gtag('event', 'quote_button_click'); menuComponent.closeMenu(); return false;">Get a Quote</a></li>
                 </ul>
             </nav>
         `;
