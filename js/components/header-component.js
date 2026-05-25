@@ -9,9 +9,9 @@ class HeaderComponent extends HTMLElement {
             <header>
                 <a href="/">
                     <picture>
-                        <source srcset="/elearning-solutions/images/logo.webp" type="image/webp"
+                        <source srcset="/images/logo.webp" type="image/webp"
                             sizes="(max-width: 600px) 80vw, 280px" width="800" height="220">
-                        <img src="/elearning-solutions/images/logo.png"
+                        <img src="/images/logo.png"
                             alt="eLearning Solutions by Steven Simon"
                             title="eLearning Solutions by Steven Simon"
                             class="logo"
