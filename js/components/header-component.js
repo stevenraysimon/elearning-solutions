@@ -17,6 +17,7 @@ class HeaderComponent extends HTMLElement {
                             class="logo"
                             style="width: 100%; height: auto;"
                             width="800" height="220">
+                            <!--Testing-->
                     </picture>
                 </a>
                 <div class="inside-wrapper">
