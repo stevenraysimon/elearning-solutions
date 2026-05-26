@@ -248,6 +248,8 @@
 
             $('#letter').html(formattedMessage);
             $('#formInput').css('display', 'none');
+            $('#copyo').css('display', 'block');
+            $('#copyHtmlBtn').css('display', 'block');
         });
 
         // ── Copy ───────────────────────────────────────────────
@@ -430,8 +432,8 @@
         </table>
     </div><!-- /copyMe -->
 
-    <input id="copyo" type="submit" value="Copy">
-    <a href="#" id="copyHtmlBtn" title="Copy HTML">Copy HTML</a>
+    <input id="copyo" type="submit" value="Copy" style="display:none;">
+    <a href="#" id="copyHtmlBtn" title="Copy HTML" style="display:none;">Copy HTML</a>
 </body>
 
 </html>
