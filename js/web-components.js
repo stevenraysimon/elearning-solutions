@@ -8,3 +8,4 @@ import './components/menu-component.js';
 import './components/quote-modal-component.js';
 import './components/quote-button-component.js';
 import './components/carousel-component.js';
+import './components/diploma-modal-component.js';

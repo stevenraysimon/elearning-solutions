@@ -108,6 +108,16 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+// ── Diploma Modal ─────────────────────────────
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.diploma-link').forEach(link => {
+        link.addEventListener('click', e => {
+            e.preventDefault();
+            document.dispatchEvent(new CustomEvent('openDiplomaModal'));
+        });
+    });
+});
+
 // ── Smooth scroll for anchor links ─────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
